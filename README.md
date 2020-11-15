@@ -1,6 +1,6 @@
-# jsonvalidator for deno
+# schema validator for deno
 
-Json Validator - validates a json object against defined schema.
+Json Schema Validator - validates a json object against defined schema.
 
 ## Docs
 
@@ -9,7 +9,7 @@ Json Validator - validates a json object against defined schema.
 ## Example
 
 ```ts
-import { validate } from "https://deno.land/x/jsonvalidator/mod.ts";
+import { validate } from "https://deno.land/x/schema_validator/mod.ts";
 const bodySchema = {
   name: {
     type: String,
